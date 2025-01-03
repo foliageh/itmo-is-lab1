@@ -15,7 +15,7 @@ import java.util.Objects;
 
 @Entity
 @Getter @Setter
-public class SpaceMarine extends BaseModel {
+public class SpaceMarine extends BaseEntity {
     @Embedded
     @Valid
     private Coordinates coordinates = new Coordinates();

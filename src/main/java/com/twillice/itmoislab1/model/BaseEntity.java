@@ -13,7 +13,7 @@ import java.time.ZonedDateTime;
 
 @MappedSuperclass
 @Getter @Setter
-public abstract class BaseModel implements Serializable {
+public abstract class BaseEntity implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false)

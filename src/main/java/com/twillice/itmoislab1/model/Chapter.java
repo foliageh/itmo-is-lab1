@@ -14,7 +14,7 @@ import java.util.Objects;
 
 @Entity
 @Getter @Setter
-public class Chapter extends BaseModel {
+public class Chapter extends BaseEntity {
     @Column
     private String parentLegion;  // may be empty
 

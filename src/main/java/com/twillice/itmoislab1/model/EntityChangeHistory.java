@@ -10,7 +10,7 @@ import java.util.Objects;
 
 @MappedSuperclass
 @Getter @Setter
-public abstract class EntityChangeHistory<T extends BaseModel> {
+public abstract class EntityChangeHistory<T extends BaseEntity> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
